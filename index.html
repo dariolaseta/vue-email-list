@@ -14,7 +14,11 @@
 
         <main>
             <div id="app">
-                {{message}}
+                <ul>
+                    <li v-for="email in emailArray">
+                        {{email}}
+                    </li>
+                </ul>
             </div>
         </main>
 
